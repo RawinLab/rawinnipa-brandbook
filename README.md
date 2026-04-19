@@ -26,6 +26,7 @@ brand-book/
 ├── 03-corporate/        Company profile & executive CV
 ├── 04-key-visuals/      Hero imagery for web & social
 ├── 05-uniforms/         Uniform design deck, spec sheet & mockups
+├── 06-templates/        Editable slide & social PPTX templates
 └── scripts/             Source scripts — every asset is parametric
 ```
 
@@ -101,6 +102,8 @@ Full palette, neutrals, and Pantone equivalents in [`01-strategy/Rawinnipa_Brand
 | Brief a uniform vendor | [`05-uniforms/Rawinnipa_Uniform_Spec_Sheet_v1.0.pdf`](05-uniforms/Rawinnipa_Uniform_Spec_Sheet_v1.0.pdf) |
 | Review uniform design directions | [`05-uniforms/Rawinnipa_Uniform_Design_Deck_v1.0.pdf`](05-uniforms/Rawinnipa_Uniform_Design_Deck_v1.0.pdf) |
 | Preview a uniform on a specific color | [`05-uniforms/mockups/`](05-uniforms/mockups/) (polo/tee × 5 colorways × front/back) |
+| Start a new slide deck | [`06-templates/Rawinnipa_Slide_Template_v1.0.pptx`](06-templates/Rawinnipa_Slide_Template_v1.0.pptx) |
+| Draft a social post (landscape/square/vertical) | [`06-templates/`](06-templates/) — pick the matching orientation |
 
 ---
 
@@ -148,6 +151,7 @@ Each script writes to its source folder — copy outputs back into this repo whe
 | Company CV            | 1.0   |
 | Key Visuals           | 1.0   |
 | Uniforms              | 1.0   |
+| Templates             | 1.0   |
 | Company Profile       | 1.2.4 |
 
 When you update an asset, bump its component version and update the Changelog below.
@@ -156,6 +160,7 @@ When you update an asset, bump its component version and update the Changelog be
 
 - **v1.0** (April 2026) — Initial release. Brand Guidelines, Company CV, logo variants, 9 key visuals (incl. Thai), and reproducible source scripts.
 - **Uniforms v1.0** (April 2026) — Added `05-uniforms/`: Uniform Design Deck + Spec Sheet (PPTX/PDF/DOCX), and ~168 mockup renders (polo/tee × 5 colorways × front/back/grid) across four layout families (classic, center, center-with-logo, sleeve-logo).
+- **Templates v1.0** (April 2026) — Added `06-templates/`: editable Slide Template and Social templates (landscape, square, vertical) as PPTX.
 
 ---
 
