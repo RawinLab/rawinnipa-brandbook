@@ -27,6 +27,8 @@ brand-book/
 ├── 04-key-visuals/      Hero imagery for web & social
 ├── 05-uniforms/         Uniform design deck, spec sheet & mockups
 ├── 06-templates/        Editable slide & social PPTX templates
+├── 07-stationery/       Business card, envelope, letterhead, invoice, quotation
+├── 08-merch/            Branded merch mockups & sticker sheet
 └── scripts/             Source scripts — every asset is parametric
 ```
 
@@ -104,6 +106,12 @@ Full palette, neutrals, and Pantone equivalents in [`01-strategy/Rawinnipa_Brand
 | Preview a uniform on a specific color | [`05-uniforms/mockups/`](05-uniforms/mockups/) (polo/tee × 5 colorways × front/back) |
 | Start a new slide deck | [`06-templates/Rawinnipa_Slide_Template_v1.0.pptx`](06-templates/Rawinnipa_Slide_Template_v1.0.pptx) |
 | Draft a social post (landscape/square/vertical) | [`06-templates/`](06-templates/) — pick the matching orientation |
+| Order business cards | [`07-stationery/business_card_front.pdf`](07-stationery/business_card_front.pdf) + [`_back.pdf`](07-stationery/business_card_back.pdf) |
+| Print an envelope | [`07-stationery/envelope_dl.pdf`](07-stationery/envelope_dl.pdf) |
+| Send a quotation / invoice | [`07-stationery/quotation_A4.docx`](07-stationery/quotation_A4.docx) · [`invoice_A4.docx`](07-stationery/invoice_A4.docx) |
+| Write on letterhead | [`07-stationery/letterhead_A4.docx`](07-stationery/letterhead_A4.docx) |
+| Pitch merch to a vendor | [`08-merch/merch_lineup.png`](08-merch/merch_lineup.png) |
+| Print stickers | [`08-merch/sticker_sheet.pdf`](08-merch/sticker_sheet.pdf) |
 
 ---
 
@@ -152,6 +160,8 @@ Each script writes to its source folder — copy outputs back into this repo whe
 | Key Visuals           | 1.0   |
 | Uniforms              | 1.0   |
 | Templates             | 1.0   |
+| Stationery            | 1.0   |
+| Merch                 | 1.0   |
 | Company Profile       | 1.2.4 |
 
 When you update an asset, bump its component version and update the Changelog below.
@@ -161,6 +171,8 @@ When you update an asset, bump its component version and update the Changelog be
 - **v1.0** (April 2026) — Initial release. Brand Guidelines, Company CV, logo variants, 9 key visuals (incl. Thai), and reproducible source scripts.
 - **Uniforms v1.0** (April 2026) — Added `05-uniforms/`: Uniform Design Deck + Spec Sheet (PPTX/PDF/DOCX), and ~168 mockup renders (polo/tee × 5 colorways × front/back/grid) across four layout families (classic, center, center-with-logo, sleeve-logo).
 - **Templates v1.0** (April 2026) — Added `06-templates/`: editable Slide Template and Social templates (landscape, square, vertical) as PPTX.
+- **Stationery v1.0** (April 2026) — Added `07-stationery/`: business card (front/back + mockup), DL envelope (+ mockup), A4 letterhead, invoice, and quotation (DOCX + PDF).
+- **Merch v1.0** (April 2026) — Added `08-merch/`: mockups for cap, mug, notebook, pin, sticker, tote, a merch lineup render, and a print-ready sticker sheet.
 
 ---
 
