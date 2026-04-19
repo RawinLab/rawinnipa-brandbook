@@ -7,11 +7,18 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Agent runtime state
+.omc/
+.claude/
+
 # Build artifacts / scratch
 *.tmp
 *.log
 *.bak
 *~
+
+# Office lock files
+.~lock.*#
 
 # Node (for scripts)
 node_modules/
