@@ -25,6 +25,7 @@ brand-book/
 ├── 02-logo/             Logo variants (transparent background)
 ├── 03-corporate/        Company profile & executive CV
 ├── 04-key-visuals/      Hero imagery for web & social
+├── 05-uniforms/         Uniform design deck, spec sheet & mockups
 └── scripts/             Source scripts — every asset is parametric
 ```
 
@@ -97,6 +98,9 @@ Full palette, neutrals, and Pantone equivalents in [`01-strategy/Rawinnipa_Brand
 | Set up YouTube channel | [`04-key-visuals/kv_youtube_2560x1440.png`](04-key-visuals/kv_youtube_2560x1440.png) |
 | Pitch deck cover / website hero | [`04-key-visuals/kv_hero_1920x1080.png`](04-key-visuals/kv_hero_1920x1080.png) |
 | Thai-audience hero | [`04-key-visuals/kv_hero_thai_1920x1080.png`](04-key-visuals/kv_hero_thai_1920x1080.png) |
+| Brief a uniform vendor | [`05-uniforms/Rawinnipa_Uniform_Spec_Sheet_v1.0.pdf`](05-uniforms/Rawinnipa_Uniform_Spec_Sheet_v1.0.pdf) |
+| Review uniform design directions | [`05-uniforms/Rawinnipa_Uniform_Design_Deck_v1.0.pdf`](05-uniforms/Rawinnipa_Uniform_Design_Deck_v1.0.pdf) |
+| Preview a uniform on a specific color | [`05-uniforms/mockups/`](05-uniforms/mockups/) (polo/tee × 5 colorways × front/back) |
 
 ---
 
@@ -121,6 +125,7 @@ apt install fonts-inter fonts-noto-core   # once per machine
 node scripts/build_brand_ci.js     # regenerates Brand Guidelines PPTX
 node scripts/build_brand_cv.js     # regenerates Company CV PPTX
 python3 scripts/build_kv.py        # regenerates all key visuals
+python3 scripts/build_uniforms.py  # regenerates uniform mockups
 ```
 
 Each script writes to its source folder — copy outputs back into this repo when satisfied.
@@ -142,6 +147,7 @@ Each script writes to its source folder — copy outputs back into this repo whe
 | Brand Guidelines      | 1.0   |
 | Company CV            | 1.0   |
 | Key Visuals           | 1.0   |
+| Uniforms              | 1.0   |
 | Company Profile       | 1.2.4 |
 
 When you update an asset, bump its component version and update the Changelog below.
@@ -149,6 +155,7 @@ When you update an asset, bump its component version and update the Changelog be
 ### Changelog
 
 - **v1.0** (April 2026) — Initial release. Brand Guidelines, Company CV, logo variants, 9 key visuals (incl. Thai), and reproducible source scripts.
+- **Uniforms v1.0** (April 2026) — Added `05-uniforms/`: Uniform Design Deck + Spec Sheet (PPTX/PDF/DOCX), and ~168 mockup renders (polo/tee × 5 colorways × front/back/grid) across four layout families (classic, center, center-with-logo, sleeve-logo).
 
 ---
 
