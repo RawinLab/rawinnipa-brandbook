@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Editors
+.vscode/
+.idea/
+
+# Build artifacts / scratch
+*.tmp
+*.log
+*.bak
+*~
+
+# Node (for scripts)
+node_modules/
+package-lock.json
+
+# Python (for scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Temporary renders produced by scripts during iteration — keep only final outputs
+scripts/output/
+scripts/tmp/
