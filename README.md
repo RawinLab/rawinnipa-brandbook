@@ -29,6 +29,7 @@ brand-book/
 ├── 06-templates/        Editable slide & social PPTX templates
 ├── 07-stationery/       Business card, envelope, letterhead, invoice, quotation
 ├── 08-merch/            Branded merch mockups & sticker sheet
+├── 09-mascots/          Mascot character sheets & generation prompts
 └── scripts/             Source scripts — every asset is parametric
 ```
 
@@ -112,6 +113,8 @@ Full palette, neutrals, and Pantone equivalents in [`01-strategy/Rawinnipa_Brand
 | Write on letterhead | [`07-stationery/letterhead_A4.docx`](07-stationery/letterhead_A4.docx) |
 | Pitch merch to a vendor | [`08-merch/merch_lineup.png`](08-merch/merch_lineup.png) |
 | Print stickers | [`08-merch/sticker_sheet.pdf`](08-merch/sticker_sheet.pdf) |
+| Use mascot characters / sticker concepts | [`09-mascots/`](09-mascots/) |
+| Regenerate mascot directions | [`09-mascots/mascot-prompts.md`](09-mascots/mascot-prompts.md) |
 
 ---
 
@@ -162,6 +165,7 @@ Each script writes to its source folder — copy outputs back into this repo whe
 | Templates             | 1.0   |
 | Stationery            | 1.0   |
 | Merch                 | 1.0   |
+| Mascots               | 0.1   |
 | Company Profile       | 1.2.4 |
 
 When you update an asset, bump its component version and update the Changelog below.
@@ -173,6 +177,7 @@ When you update an asset, bump its component version and update the Changelog be
 - **Templates v1.0** (April 2026) — Added `06-templates/`: editable Slide Template and Social templates (landscape, square, vertical) as PPTX.
 - **Stationery v1.0** (April 2026) — Added `07-stationery/`: business card (front/back + mockup), DL envelope (+ mockup), A4 letterhead, invoice, and quotation (DOCX + PDF).
 - **Merch v1.0** (April 2026) — Added `08-merch/`: mockups for cap, mug, notebook, pin, sticker, tote, a merch lineup render, and a print-ready sticker sheet.
+- **Mascots v0.1** (June 2026) — Added `09-mascots/`: female and male consultant mascot character sheets, green lotus companion, pink lotus / Nong Dok Bua companion, and reusable generation prompts for future sticker poses.
 
 ---
 

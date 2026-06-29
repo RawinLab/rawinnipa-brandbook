@@ -92,6 +92,14 @@ brandbook/
 │   ├── kv_youtube_2560x1440.png           YouTube channel art
 │   └── kv_email_header_1200x400.png       Newsletter header
 │
+├── 09-mascots/      Mascot character sheets and reusable generation prompts
+│   ├── README.md
+│   ├── mascot-prompts.md
+│   ├── mascot-female-character-sheet.png
+│   ├── mascot-male-character-sheet.png
+│   ├── mascot-lotus-green-character-sheet.png
+│   └── mascot-lotus-pink-character-sheet.png
+│
 └── scripts/         Source — regenerate any output
     ├── build_brand_ci.js    → 01-strategy/*.pptx (pptxgenjs)
     ├── build_brand_cv.js    → 03-corporate/Company_CV.pptx (pptxgenjs)
@@ -115,6 +123,8 @@ brandbook/
 | "Full company profile"                            | `03-corporate/Rawinnipa_Company_Profile.pdf` |
 | "CSS variables / Tailwind config"                 | `01-strategy/…Brand_Guidelines.md` §9 |
 | "Regenerate all KVs with new tagline"             | Edit `scripts/build_kv.py`, rerun (see below) |
+| "Use the mascot / character / น้องดอกบัว"          | `09-mascots/` |
+| "Generate new mascot poses / LINE sticker concepts"| `09-mascots/mascot-prompts.md` |
 
 ---
 
@@ -207,6 +217,7 @@ When you create new files in this repo:
 - **Do not** generate new fonts, color tokens, or visual motifs without the user asking explicitly and updating the Brand Guidelines in the same change.
 - **Do not** push to Git automatically — commits are fine, pushing is the user's call.
 - **Do not** use stock imagery without a licensing note; the brand uses only geometric/gradient elements by default.
+- Mascots are supporting characters, not logo replacements. Pink is allowed only for the Nong Dok Bua mascot palette, not as a new corporate primary color.
 
 ---
 

@@ -258,6 +258,28 @@ Circular crop of the primary logo on Deep Black, with a 2 px Rawin Green stroke 
 - Title: Inter Bold 40 pt, White
 - Body: Inter Regular 14 pt, Ash `#9CA3AF` or Cloud `#D1D5DB`
 
+### 8.5 Mascot System
+
+Mascots are a supporting expression layer for moments that need warmth, guidance, or personality: LINE stickers, chatbot states, onboarding, training slides, social posts, light merch, and workshop materials. Mascots do **not** replace the Rawinnipa logo.
+
+Approved directions live in [`09-mascots/`](../09-mascots/):
+
+| Mascot | Role |
+|---|---|
+| Female consultant | Primary human mascot direction; best fit for Rawinnipa's lotus meaning and B2B trust |
+| Male consultant | Supporting consultant direction for alternate scenes and team-based stories |
+| Green lotus | Brand-color lotus companion, closer to the corporate palette |
+| Pink lotus / Nong Dok Bua | Warmer, sticker-friendly lotus companion |
+
+**Rules:**
+
+- Keep the brand environment dark: Deep Black `#0A0A0A`, Charcoal `#1A1A1A`, and sparse Rawin Green `#3EDC81` tech accents.
+- Pink is allowed only as the Nong Dok Bua mascot palette. It is not a new corporate primary color.
+- Use subtle Thai cues: wai gesture, gentle smile, simplified lotus-petal geometry, and minimal geometric Thai motifs.
+- Avoid sacred, royal, religious, ceremonial, or costume-heavy Thai references.
+- Keep expressions readable at small sticker size.
+- For final stickers, generate or crop pose-level transparent assets from the character sheets and prompts in `09-mascots/mascot-prompts.md`.
+
 ---
 
 ## 9. Design Tokens
